@@ -47,7 +47,7 @@ class InteractiveConsole {
         const results = [];
 
         for (const phrase of phrases) {
-            const randomNumber = new RandomNumber(countFaces);
+            const randomNumber = new RandomNumber(countFaces - 1);
             console.log(
                 `${phrase}\nI selected a random value in the range 0..${
                     countFaces - 1
